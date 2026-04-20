@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A site containing information about sustainable future through technology, natural solutions and common efforts for our green planet." />
+	<meta name="keywords" content="green, planet, recycling, vehicles, electric cars, environment, zero, waste" />
+	<meta name="author" content="Viktor i Teomir" />
+	<meta name="classification" content="education" />
+  <title>Green planet</title>
+ <link rel="stylesheet" href="Styles/style.css">
+<script type="text/javascript" src="JavaScript/window_kakvo_e.js"></script> 
+<script type="text/javascript" src="JavaScript/window_okolna_sreda.js"></script>
+<script type="text/javascript" src="JavaScript/window_kak_rabotiat.js"></script>
+<script type="text/javascript" src="JavaScript/window_ikonomii.js"></script>
+<link rel="icon" href="images/logo_tab.png" sizes="32x32" >
+  <script>
+    function toggleMenu() {
+      document.querySelector('.menu').classList.toggle('show');
+    }
+  </script
+  <link rel="icon" href="logo_tab.png" sizes="32x32" >
+</head>
+<body>
+  <header>
+    <h1>Green planet</h1>
+    <p>A sustainable future through technology, natural solutions and shared efforts.</p>
+  </header>
+
+  <nav>
+    <div class="logo">  <img src="images/logo.svg"  /></div>
+
+     <div class="menu">
+      <a href="index.html">Home</a>
+     <a href="reciklirane.html">Recycling</a>
+      <a href="el.koli.html">Vehicles</a>
+	  <a href="nulev_otpadak.html">Zero waste</a>
+	  <a href="games_memory.html">Game</a>
+      <a href="kontakti.html">Contacts</a>
+    </div>
+	
+  
+  </nav>
+ 
+  
+  <section id="resources" class="section">
+  <div style="display: flex; justify-content: center;align-items: center;">
+   <img src="images/process_cars.png" usemap="#carta_cars"> 
+			<map name="carta_cars">
+  
+				<area shape="rect" coords="128,235,226,291" href="" onclick="popup_kakvo_e()" >
+				<area shape="rect" coords="243,232,315,287" href="" onclick="popup_okolna_sreda()">
+				
+				<area shape="rect" coords="539,235,635,281" href="" onclick="popup_kak_rabotiat()">
+				
+				<area shape="rect" coords="641,232,742,286" href="" onclick="popup_ikonomii()">
+				
+				
+			</map>
+   </div>
+  </section>
+
+  <footer>СУ "Сава Доброплодни" гр.Шумен</footer>
+</body>
+</html>
