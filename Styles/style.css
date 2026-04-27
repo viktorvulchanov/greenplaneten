@@ -251,3 +251,7 @@ input, textarea {
 .nav-btn:focus {
   outline: 2px solid #4CAF50; /* custom visible focus */
 }
+
+.menu .flag {
+  margin-left: auto;
+}
