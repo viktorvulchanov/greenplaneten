@@ -243,3 +243,11 @@ input, textarea {
     input[type="submit"]:hover {
         
         background-color: #3d2a24;
+	.nav-btn {
+  outline: none;
+  border: none;
+}
+
+.nav-btn:focus {
+  outline: 2px solid #4CAF50; /* custom visible focus */
+}
